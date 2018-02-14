@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav id="nav">
-      <router-link :to="{ name: 'home' }">Home</router-link> |
+      <router-link :to="{ name: 'home' }">Home page</router-link> |
       <router-link :to="{ name: 'brews' }">Brews</router-link> |
       <router-link :to="{ name: 'brew', params: { id: '1' } }">Brew 1</router-link> |
       <router-link :to="{ name: 'random' }">Random</router-link> |
